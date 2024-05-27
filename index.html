@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-lg-2 d-none d-lg-block p-0">
+                <div class="shadow h-100 p-3 position-fixed w-inherit d-flex justify-content-between flex-column ">
+                    <a href="#" class="d-flex gap-2 align-items-center text-decoration-none ">
+                        <img src="img/logo.webp" width="70" alt="">
+                        <span class="fw-bold fs-6 link-body-emphasis ">سبزلرن</span>
+                    </a>
+                    <hr>
+                    <ul class="nav nav-pills d-block mb-auto ">
+                        <li class="nav-item mt-3">
+                            <a href="#" class="nav-link d-flex gap-2 active">
+                            <i class="fa-solid fa-house"></i>
+                            <span data-bs-toggle="collapse" data-bs-target="#collapseWidthExample">خانه</span>
+                             
+                            </a>
+                            <ul class="nav collapse " id="collapseWidthExample">
+                                <li class="nav-item d-block w-100"><a href="" class="nav-link">خانه</li></a>
+                                <li class="nav-item d-block w-100"><a href="" class="nav-link">خانه</li></a>
+                                <li class="nav-item d-block w-100"><a href="" class="nav-link">خانه </li></a>
+                                <li class="nav-item d-block w-100"><a href="" class="nav-link">خانه</li></a>
+                            </ul>
+                        </li>
+                        <li class="nav-item mt-3">
+                            <a href="#" class="nav-link d-flex gap-2  link-body-emphasis ">
+                                <i class="fa-solid fa-gauge"></i>
+                                <span data-bs-toggle="collapse" data-bs-target="#collapseWidthExample1">داشبورد</span>
+                            </a>
+                            <ul class="nav collapse " id="collapseWidthExample1">
+                                <li class="nav-item d-block w-100"><a href="" class="nav-link">داشبورد</li></a>
+                                <li class="nav-item d-block w-100"><a href="" class="nav-link">داشبورد</li></a>
+                                <li class="nav-item d-block w-100"><a href="" class="nav-link">داشبورد </li></a>
+                                <li class="nav-item d-block w-100"><a href="" class="nav-link">داشبورد</li></a>
+                            </ul>
+                        </li>
+                        <li class="nav-item mt-3">
+                            <a href="#" class="nav-link d-flex gap-2 link-body-emphasis ">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span>سفارش ها</span>
+                            </a>
+                        </li>
+                        <li class="nav-item mt-3">
+                            <a href="#" class="nav-link d-flex gap-2  link-body-emphasis ">
+                                <i class="fa-solid fa-book-open"></i>
+                                <span>دوره ها</span>
+                            </a>
+                        </li>
+                        <li class="nav-item mt-3">
+                            <a href="#" class="nav-link d-flex gap-2 link-body-emphasis ">
+                                <i class="fa-solid fa-user"></i>
+                                <span>مشتریان</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <hr>
+                    <div class="dropdown ">
+                        <a href="#" data-bs-toggle="dropdown"  class="dropdown-toggle  d-flex align-items-center gap-3 text-decoration-none link-body-emphasis ">
+                            <img src="img/331.jpg" alt="" width="32" height="32" class="rounded-circle ">
+                            <strong>مهدیه ظفری</strong>
+                        </a>
+                        <ul class="dropdown-menu shadow" data-popper-placement="top-end ">
+                            <li>
+                                <a href="#"class="dropdown-item "> پروژه جدید...</a>
+                                <a href="#"class="dropdown-item ">تنظیمات</a>
+                                <a href="#"class="dropdown-item ">پروفایل</a>
+                                <a href="#"class="dropdown-item ">خروج</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-10 p-0">
+                <nav class="navbar navbar-expand-lg border border-bottom border-opacity-10 ">
+                    <div class="container-fluid ">
+                        <a href="" class="navbar-brand">پیش خوان</a>
+                    <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#Myoffcanvas">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-start d-lg-none " id="Myoffcanvas">
+                        <div class="shadow h-100 p-3 overflow-y-auto  d-flex justify-content-between flex-column ">
+                            <button class="btn btn-close"data-bs-dismiss="offcanvas"></button>
+                            <a href="#" class="d-flex gap-2 align-items-center text-decoration-none ">
+                                <img src="img/logo.webp" width="100" alt="">
+                                <span class="fw-bold fs-4 link-body-emphasis ">سبزلرن</span>
+                            </a>
+                            <hr>
+                            <ul class="nav nav-pills d-block mb-auto ">
+                                <li class="nav-item mt-3">
+                                    <a href="#" class="nav-link d-flex gap-2 active fs-5">
+                                    <i class="fa-solid fa-house"></i>
+                                    <span >خانه</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item mt-3">
+                                    <a href="#" class="nav-link d-flex gap-2  fs-5 link-body-emphasis ">
+                                        <i class="fa-solid fa-gauge"></i>
+                                        <span>داشبورد</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item mt-3">
+                                    <a href="#" class="nav-link d-flex gap-2  fs-5 link-body-emphasis ">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <span>سفارش ها</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item mt-3">
+                                    <a href="#" class="nav-link d-flex gap-2  fs-5 link-body-emphasis ">
+                                        <i class="fa-solid fa-book-open"></i>
+                                        <span>دوره ها</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item mt-3">
+                                    <a href="#" class="nav-link d-flex gap-2  fs-5 link-body-emphasis ">
+                                        <i class="fa-solid fa-user"></i>
+                                        <span>مشتریان</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <hr>
+                            <div class="dropdown ">
+                                <a href="#" data-bs-toggle="dropdown"  class="dropdown-toggle  d-flex align-items-center gap-3 text-decoration-none link-body-emphasis ">
+                                    <img src="img/331.jpg" alt="" width="30" height="30" class="rounded-circle ">
+                                    <strong>مهدیه ظفری</strong>
+                                </a>
+                                <ul class="dropdown-menu shadow" data-popper-placement="top-end ">
+                                    <li>
+                                        <a href="#"class="dropdown-item "> پروژه جدید...</a>
+                                        <a href="#"class="dropdown-item ">تنظیمات</a>
+                                        <a href="#"class="dropdown-item ">پروفایل</a>
+                                        <a href="#"class="dropdown-item ">خروج</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    
+                </nav>
+                <div class="px-3 py-4">
+                    <h2>مهدیه ظفری عزیز؛ خوش اومدی 🙌</h2>
+                    <div class="row row-gap-3 mt-4">
+                        <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                            <div class="position-relative overflow-hidden  d-flex align-items-center justify-content-between  bg-info bg-gradient rounded-3 px-3 py-4">
+                                <div>
+                                    <h5 class="fw-bold text-light text-nowrap ">پیشرفت کاربر</h5>
+                                    <span class="text-light fs-4 text-nowrap">53%</span>
+                                </div>
+                                <div class="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="117" height="51" viewBox="0 0 117 51" fill="none">
+                                        <g filter="url(#filter0_f_3_639)">
+                                          <circle cx="107" cy="20" r="5" fill="#fff"></circle>
+                                        </g>
+                                        <path d="M1 49.5L8.5 26.5L17 37L22 19.5L31 37L44.5 3L57.5 26.5L72 19.5L83.5 31L93.5 6.5L101 19.5H108" stroke="#fff" stroke-width="2" stroke-linecap="round"></path>
+                                        <defs>
+                                          <filter id="filter0_f_3_639" x="97" y="10" width="20" height="20" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+                                            <feGaussianBlur stdDeviation="2.5" result="effect1_foregroundBlur_3_639"></feGaussianBlur>
+                                          </filter>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <div class="position-absolute p-1 bottom-0 bg-opacity-25 bg-dark w-100 start-0 text-center ">
+                                    <a href="" class="text-light text-decoration-none ">اطلاعات بیشتر</a>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" fill="#fff" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>  
+                        <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                            <div class="position-relative overflow-hidden  d-flex align-items-center justify-content-between  bg-danger  bg-gradient rounded-3 px-3 py-4">
+                                <div>
+                                    <h5 class="fw-bold text-light text-nowrap ">دوره ها</h5>
+                                    <span class="text-light fs-4 text-nowrap">10%</span>
+                                </div>
+                                <div class="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="117" height="51" viewBox="0 0 117 51" fill="none">
+                                        <g filter="url(#filter0_f_3_639)">
+                                          <circle cx="107" cy="20" r="5" fill="#fff"></circle>
+                                        </g>
+                                        <path d="M1 49.5L8.5 26.5L17 37L22 19.5L31 37L44.5 3L57.5 26.5L72 19.5L83.5 31L93.5 6.5L101 19.5H108" stroke="#fff" stroke-width="2" stroke-linecap="round"></path>
+                                        <defs>
+                                          <filter id="filter0_f_3_639" x="97" y="10" width="20" height="20" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+                                            <feGaussianBlur stdDeviation="2.5" result="effect1_foregroundBlur_3_639"></feGaussianBlur>
+                                          </filter>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <div class="position-absolute p-1 bottom-0 bg-opacity-25 bg-dark w-100 start-0 text-center ">
+                                    <a href="" class="text-light text-decoration-none ">اطلاعات بیشتر</a>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" fill="#fff" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                            <div class="position-relative overflow-hidden  d-flex align-items-center justify-content-between  bg-primary   bg-gradient rounded-3 px-3 py-4">
+                                <div>
+                                    <h5 class="fw-bold text-light text-nowrap "> مجموع تیکت ها</h5>
+                                    <span class="text-light fs-4 text-nowrap">20%</span>
+                                </div>
+                                <div class="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="117" height="51" viewBox="0 0 117 51" fill="none">
+                                        <g filter="url(#filter0_f_3_639)">
+                                          <circle cx="107" cy="20" r="5" fill="#fff"></circle>
+                                        </g>
+                                        <path d="M1 49.5L8.5 26.5L17 37L22 19.5L31 37L44.5 3L57.5 26.5L72 19.5L83.5 31L93.5 6.5L101 19.5H108" stroke="#fff" stroke-width="2" stroke-linecap="round"></path>
+                                        <defs>
+                                          <filter id="filter0_f_3_639" x="97" y="10" width="20" height="20" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+                                            <feGaussianBlur stdDeviation="2.5" result="effect1_foregroundBlur_3_639"></feGaussianBlur>
+                                          </filter>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <div class="position-absolute p-1 bottom-0 bg-opacity-25 bg-dark w-100 start-0 text-center ">
+                                    <a href="" class="text-light text-decoration-none ">اطلاعات بیشتر</a>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" fill="#fff" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                            <div class="position-relative overflow-hidden  d-flex align-items-center justify-content-between  bg-success    bg-gradient rounded-3 px-3 py-4">
+                                <div>
+                                    <h5 class="fw-bold text-light text-nowrap "> موجودی  حساب</h5>
+                                    <span class="text-light fs-4 text-nowrap">0 تومان</span>
+                                </div>
+                                <div class="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="117" height="51" viewBox="0 0 117 51" fill="none">
+                                        <g filter="url(#filter0_f_3_639)">
+                                          <circle cx="107" cy="20" r="5" fill="#fff"></circle>
+                                        </g>
+                                        <path d="M1 49.5L8.5 26.5L17 37L22 19.5L31 37L44.5 3L57.5 26.5L72 19.5L83.5 31L93.5 6.5L101 19.5H108" stroke="#fff" stroke-width="2" stroke-linecap="round"></path>
+                                        <defs>
+                                          <filter id="filter0_f_3_639" x="97" y="10" width="20" height="20" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+                                            <feGaussianBlur stdDeviation="2.5" result="effect1_foregroundBlur_3_639"></feGaussianBlur>
+                                          </filter>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <div class="position-absolute p-1 bottom-0 bg-opacity-25 bg-dark w-100 start-0 text-center ">
+                                    <a href="" class="text-light text-decoration-none ">اطلاعات بیشتر</a>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" fill="#fff" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border table-responsive  border-secondary border-opacity-10  mt-4 rounded-3 ">
+                        <div class="p-2 border border-bottom border-secondary border-opacity-10">
+                            <span class="fw-bold ">وضعیت</span>
+                        </div>
+                        <table class="table table-borderless ">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th class="text-nowrap ">دوره ها</th>
+                                    <th class="text-nowrap ">مدرس</th>
+                                    <th class="text-nowrap ">تصویر</th>
+                                    <th class="text-nowrap ">شروع</th>
+                                    <th class="text-nowrap ">وضعیت</th>
+                                    <th class="text-nowrap ">درصد یادگیری</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>1</th>
+                                    <th class="text-nowrap ">بوت استرپ 5</th>
+                                    <th class="text-nowrap ">مهرشاد براتی </th>
+                                    <th><img class="rounded-circle " src="img/331.jpg" width="32" height="32" alt=""></th>
+                                    <th class="text-nowrap ">10 بهمن</th>
+                                    <th>
+                                        <span class="badge bg-success text-nowrap  rounded-pill ">گزرانده شده</span>
+                                    </th>
+                                    <th>
+                                        <div class="progress ">
+                                            <div class="progress-bar bg-success " style="width: 100%;">100%</div>
+                                        </div>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>2</th>
+                                    <th class="text-nowrap "> جاوااسکریپت</th>
+                                    <th class="text-nowrap ">مهرشاد براتی </th>
+                                    <th><img class="rounded-circle " src="img/331.jpg" width="32" height="32" alt=""></th>
+                                    <th class="text-nowrap ">12 بهمن</th>
+                                    <th>
+                                        <span class="badge bg-danger  text-nowrap  rounded-pill ">گزرانده نشده</span>
+                                    </th>
+                                    <th>
+                                        <div class="progress ">
+                                            <div class="progress-bar bg-danger  " style="width: 1;">0%</div>
+                                        </div>
+                                    </th>
+                                </tr>
+                                
+                                
+                                    <tr>
+                                        <th>3</th>
+                                    <th class="text-nowrap "> پایتون</th>
+                                    <th class="text-nowrap ">مهرشاد براتی </th>
+                                    <th><img class="rounded-circle " src="img/331.jpg" width="32" height="32" alt=""></th>
+                                    <th class="text-nowrap ">16 مهر</th>
+                                    <th>
+                                        <span class="badge bg-warning  text-nowrap   rounded-pill ">در حال یادگیری</span>
+                                    </th>
+                                    <th>
+                                        <div class="progress ">
+                                            <div class="progress-bar bg-warning   " style="width: 30%;">30%</div>
+                                        </div>
+                                    </th>
+                                    </tr>
+                                
+                                    <tr>
+                                        <th>4</th>
+                                    <th> css</th>
+                                    <th class="text-nowrap ">مهرشاد براتی </th>
+                                    <th><img class="rounded-circle " src="img/331.jpg" width="32" height="32" alt=""></th>
+                                    <th class="text-nowrap ">25 بهمن</th>
+                                    <th>
+                                        <span class="badge bg-info   text-nowrap   rounded-pill ">در حال یادگیری</span>
+                                    </th>
+                                    <th>
+                                        <div class="progress ">
+                                            <div class="progress-bar bg-info    " style="width: 80%;">80%</div>
+                                        </div>
+                                    </th>
+                                    </tr>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="mt-4 d-flex justify-content-center "> 
+                        <ul class="pagination ">
+                            <li class="page-item disabled ">
+                                <a href="" class="page-link ">قبلی</a>
+                            </li>
+                            <li class="page-item ">
+                                <a href="" class="page-link ">1</a>
+                            </li>
+                            <li class="page-item active  ">
+                                <a href="" class="page-link ">2</a>
+                            </li>
+                            <li class="page-item  ">
+                                <a href="" class="page-link ">3</a>
+                            </li>
+                            <li class="page-item  ">
+                                <a href="" class="page-link ">بعدی</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="border border-secondary border-opacity-10 mt-4">
+                        <div class="p-2">
+                            <span class="fw-bold ">اطلاعات کاربر</span>
+                        </div>
+                        <form action="" class="row row-gap-4 p-3">
+                            <div class="col-12 col-sm-6 ">
+                                <div class="">
+                                    <label for="" class="form-label">نام</label>
+                                    <input type="text" placeholder="مهدیه" class="form-control "required>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 ">
+                                <div class="">
+                                    <label for="" class="form-label">نام خانوازگی</label>
+                                    <input type="text" placeholder="ظفری" class="form-control "required>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 ">
+                                <div class="">
+                                    <label for="" class="form-label">ایمیل </label>
+                                    <input type="email" placeholder="zafari@gmail.com" class="form-control "required>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 ">
+                                <div class="">
+                                    <label for="" class="form-label">شغل </label>
+                                    <select name="" id="" class="form-select ">
+                                        <option value="دانشجو" selected>دانشجو</option>
+                                        <option value="آزاد">آزاد</option>
+                                        <option value="برنامه نویس">برنامه نویس</option>
+                                        <option value="دیگر">دیگر</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 ">
+                                <div class="">
+                                    <label for="" class="form-label">تصویر </label>
+                                    <input type="file" class="form-control "required>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 ">
+                                <div class="">
+                                    <label for="" class="form-label">سن </label>
+                                    <input type="number" class="form-control "required>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="btn btn-success ">ثبت</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown position-fixed bottom-0 end-0 me-3 mb-3">
+            <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">تغییر تم</button>
+            <ul class="dropdown-menu ">
+                <li>
+                    <button id="light" class="dropdown-item active">روشن</button>
+                </li>
+                <li>
+                    <button id="dark" class="dropdown-item">تاریک</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script>
+    let light=document.getElementById('light');
+    let dark=document.getElementById('dark');
+
+    dark.addEventListener('click',function()
+    {
+        document.documentElement.setAttribute('data-bs-theme','dark')
+        localStorage.setItem('themeMode','dark')
+        dark.classList.add('active')
+        light.classList.remove('active')
+    })
+    light.addEventListener('click',function()
+    {
+        document.documentElement.setAttribute('data-bs-theme','light')
+        localStorage.setItem('themeMode','light')
+        light.classList.add('active')
+        dark.classList.remove('active')
+    })
+    let saveThemeMode=localStorage.getItem('themeMode')
+    if(saveThemeMode=='dark')
+    {
+        document.documentElement.setAttribute('data-bs-theme','dark')
+        dark.classList.add('active')
+        light.classList.remove('active')
+    }
+    else
+    {
+        document.documentElement.setAttribute('data-bs-theme','light')
+        light.classList.add('active')
+        dark.classList.remove('active')
+    }
+    </script>
+</body>
+</html>
